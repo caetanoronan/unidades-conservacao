@@ -56,6 +56,25 @@ h2 { margin: 0 0 .7rem; font-size: 1.75rem; }
 .destaques-grid article:nth-child(3) { background: #294a46; }
 .destaques-grid article:nth-child(4) { background: #4c4050; }
 .destaques-grid span { font: .9rem/1.45 system-ui, sans-serif; }
+.mapa-mental { margin-top: 2.5rem; padding: 1.4rem; border: 1px solid var(--line); border-radius: 12px; background: rgba(38,59,74,.58); }
+.mapa-mental h3 { margin-top: 0; }
+.fluxo-instrumentos { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin: 1.2rem 0 0; padding: 0; list-style: none; counter-reset: fluxo; }
+.fluxo-instrumentos li { position: relative; min-height: 120px; padding: 1rem; border-top: 4px solid var(--green); border-radius: 8px; background: #294a46; counter-increment: fluxo; }
+.fluxo-instrumentos li::before { content: counter(fluxo, decimal-leading-zero); display: block; margin-bottom: .7rem; color: #f2db66; font: 700 .8rem/1 system-ui, sans-serif; }
+.fluxo-instrumentos li:not(:last-child)::after { content: '→'; position: absolute; right: -.72rem; top: 47%; z-index: 1; color: #ffb6d9; font: 700 1.4rem/1 system-ui, sans-serif; }
+.fluxo-instrumentos strong, .fluxo-instrumentos span { display: block; }
+.fluxo-instrumentos span { margin-top: .45rem; color: var(--muted); font: .82rem/1.4 system-ui, sans-serif; }
+.fontes-primarias { display: flex; flex-wrap: wrap; gap: .7rem 1rem; align-items: center; margin-top: 2rem; padding: .9rem 1rem; border-left: 4px solid var(--green); background: var(--sage); font: .84rem/1.4 system-ui, sans-serif; }
+.fontes-primarias a, .atualizacao a { color: #ffcf83; }
+.casos-praticos { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--line); }
+.casos-praticos h3 { margin-top: 0; }
+.casos-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.casos-grid article { padding: 1.1rem; border-left: 4px solid #ffb6d9; background: #4c4050; }
+.casos-grid article:nth-child(2) { border-left-color: #8be3c7; background: #234653; }
+.casos-grid article:nth-child(3) { border-left-color: #f2db66; background: #4b4635; }
+.casos-grid h4 { margin: 0 0 .5rem; }
+.casos-grid p { margin: 0; font: .9rem/1.5 system-ui, sans-serif; }
+.atualizacao { flex-basis: 100%; margin: .4rem 0 0; color: var(--muted); font: .82rem/1.4 system-ui, sans-serif; }
 .texto-colunas { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
 .texto-colunas article { max-width: 560px; }
 .texto-colunas h3 { margin-bottom: .45rem; }
@@ -264,6 +283,17 @@ h2 { margin: 0 0 .7rem; font-size: 1.75rem; }
 [data-theme="light"] .fontes a { color: #70405d; }
 [data-theme="light"] .nota-introducao,
 [data-theme="light"] .termo-glossario span { color: var(--muted); }
+[data-theme="light"] .mapa-mental { background: rgba(255,253,248,.65); }
+[data-theme="light"] .fluxo-instrumentos li { background: #e1f0e3; }
+[data-theme="light"] .fluxo-instrumentos li:nth-child(2) { background: #dcecf0; }
+[data-theme="light"] .fluxo-instrumentos li:nth-child(3) { background: #f8dce8; }
+[data-theme="light"] .fluxo-instrumentos li:nth-child(4) { background: #e7def4; }
+[data-theme="light"] .fluxo-instrumentos span { color: var(--muted); }
+[data-theme="light"] .fontes-primarias { background: var(--sage); }
+[data-theme="light"] .fontes-primarias a, [data-theme="light"] .atualizacao a { color: #70405d; }
+[data-theme="light"] .casos-grid article { background: #f8dce8; }
+[data-theme="light"] .casos-grid article:nth-child(2) { background: #dcecf0; }
+[data-theme="light"] .casos-grid article:nth-child(3) { background: #f8edc9; }
 
 @media (max-width: 600px) {
   body { padding: 1.2rem; }
@@ -276,4 +306,6 @@ h2 { margin: 0 0 .7rem; font-size: 1.75rem; }
   .conclusao-grid { grid-template-columns: 1fr; }
   .orientacao-introducao { display: block; }
   .orientacao-introducao strong { display: block; margin-bottom: .35rem; }
+  .fluxo-instrumentos, .casos-grid { grid-template-columns: 1fr; }
+  .fluxo-instrumentos li:not(:last-child)::after { content: '↓'; right: auto; top: auto; bottom: -.85rem; left: 50%; }
 }
