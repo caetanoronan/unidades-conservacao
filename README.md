@@ -104,9 +104,11 @@ O `index.html` na raiz encaminha o visitante para `web_interacion/index_snuc_cat
 
 ## Preparar o Git e o remote
 
-Esta pasta ainda não contém `.git`, portanto atualmente não há branch, remote ou acesso remoto configurado.
+O repositório Git local está configurado na branch `main` e conectado ao repositório público:
 
-Depois da revisão final, na raiz do projeto:
+`https://github.com/caetanoronan/unidades-conservacao`
+
+Para reproduzir a configuração em outra cópia do projeto, na raiz:
 
 ```bash
 git init
@@ -117,7 +119,7 @@ git remote add origin https://github.com/USUARIO/NOME-DO-REPOSITORIO.git
 git push -u origin main
 ```
 
-Substitua `USUARIO/NOME-DO-REPOSITORIO` pelos dados reais do repositório. Não inclua tokens ou senhas na URL.
+Substitua `USUARIO/NOME-DO-REPOSITORIO` pelos dados do seu repositório. Não inclua tokens ou senhas na URL.
 
 Para conferir o acesso remoto:
 
