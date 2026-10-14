@@ -1,0 +1,86 @@
+[
+  {
+    "grupo": "Proteção Integral",
+    "categoria": "Estação Ecológica",
+    "objetivo": "Preservar a natureza",
+    "uso_permitido": "Uso indireto dos recursos, com ênfase na preservação em estado natural, permitindo pesquisa e educação.",
+    "uso_proibido": "Exploração direta de recursos naturais, consumo, coleta e dano aos ecossistemas."
+  },
+  {
+    "grupo": "Proteção Integral",
+    "categoria": "Reserva Biológica",
+    "objetivo": "Preservar a natureza",
+    "uso_permitido": "Uso indireto dos recursos.",
+    "uso_proibido": "Exploração direta de recursos naturais, consumo, coleta e dano aos ecossistemas."
+  },
+  {
+    "grupo": "Proteção Integral",
+    "categoria": "Parque Nacional",
+    "objetivo": "Preservar a natureza e ecossistemas de relevância ecológica e beleza cênica",
+    "uso_permitido": "Uso indireto dos recursos, incluindo atividades como pesquisa, educação e ecoturismo.",
+    "uso_proibido": "Exploração direta de recursos naturais, consumo, coleta e dano aos ecossistemas."
+  },
+  {
+    "grupo": "Proteção Integral",
+    "categoria": "Monumento Natural",
+    "objetivo": "Proteger formações naturais raras, singulares ou de grande beleza",
+    "uso_permitido": "Uso indireto dos recursos.",
+    "uso_proibido": "Exploração direta de recursos naturais, consumo, coleta e dano aos atributos naturais protegidos."
+  },
+  {
+    "grupo": "Proteção Integral",
+    "categoria": "Refúgio de Vida Silvestre",
+    "objetivo": "Proteger ambientes para a existência e reprodução de espécies",
+    "uso_permitido": "Uso indireto dos recursos compatível com os objetivos da unidade.",
+    "uso_proibido": "Exploração direta de recursos naturais, consumo, coleta e dano aos habitats e espécies protegidos."
+  },
+  {
+    "grupo": "Uso Sustentável",
+    "categoria": "Área de Proteção Ambiental (APA)",
+    "objetivo": "Compatibilizar conservação e uso sustentável",
+    "uso_permitido": "Uso direto e sustentável dos recursos, permitindo ocupação humana e usos do espaço.",
+    "uso_proibido": "Atividades altamente impactantes e usos que gerem degradação, erosão ou perda de qualidade ambiental."
+  },
+  {
+    "grupo": "Uso Sustentável",
+    "categoria": "Área de Relevante Interesse Ecológico (ARIE)",
+    "objetivo": "Tornar a conservação compatível com o uso dos recursos naturais",
+    "uso_permitido": "Uso direto e sustentável.",
+    "uso_proibido": "Atividades incompatíveis com a conservação."
+  },
+  {
+    "grupo": "Uso Sustentável",
+    "categoria": "Floresta Nacional",
+    "objetivo": "Compatibilizar conservação e uso sustentável",
+    "uso_permitido": "Uso direto e sustentável dos recursos naturais.",
+    "uso_proibido": "Exploração que não seja compatível com o manejo sustentável."
+  },
+  {
+    "grupo": "Uso Sustentável",
+    "categoria": "Reserva Extrativista",
+    "objetivo": "Compatibilizar conservação e uso sustentável",
+    "uso_permitido": "Uso direto e sustentável, destacando o manejo comunitário e uso por populações tradicionais.",
+    "uso_proibido": "Uso incompatível com os objetivos da unidade, que descaracterize o modo de vida e a extração sustentável."
+  },
+  {
+    "grupo": "Uso Sustentável",
+    "categoria": "Reserva de Fauna",
+    "objetivo": "Tornar a conservação compatível com o uso dos recursos naturais",
+    "uso_permitido": "Uso direto e sustentável dos recursos, com manejo ligado à conservação.",
+    "uso_proibido": "Exploração incompatível com a conservação e o manejo da fauna."
+  },
+  {
+    "grupo": "Uso Sustentável",
+    "categoria": "Reserva de Desenvolvimento Sustentável",
+    "objetivo": "Compatibilizar conservação e uso sustentável",
+    "uso_permitido": "Uso direto e sustentável dos recursos, conciliando conservação com modos de vida.",
+    "uso_proibido": "Uso que comprometa a conservação e a continuidade dos modos de vida tradicionais."
+  },
+  {
+    "grupo": "Uso Sustentável",
+    "categoria": "RPPN",
+    "objetivo": "Tornar a conservação compatível com o uso dos recursos naturais",
+    "uso_permitido": "Uso direto e sustentável em regime privado.",
+    "uso_proibido": "Ocupação do solo, uso da terra e exploração direta de recursos naturais são fortemente limitados ou vedados."
+  }
+]

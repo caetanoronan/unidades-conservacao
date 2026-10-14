@@ -1,0 +1,42 @@
+[
+    {
+        "grupo": "Código Florestal",
+        "categoria": "Área de Preservação Permanente (APP)",
+        "objetivo": "Preservar os recursos hídricos, a paisagem, a estabilidade geológica e a biodiversidade, proteger o solo e assegurar o bem-estar humano.",
+        "uso_permitido": "Acesso para obtenção de água; intervenção apenas em hipóteses de utilidade pública, interesse social ou baixo impacto ambiental.",
+        "uso_proibido": "Supressão de vegetação nativa não autorizada; conversão para uso alternativo do solo fora das exceções legais estritas.",
+        "exemplos": "Margens de rios e córregos; entorno de nascentes; encostas íngremes; restingas e manguezais; topos de morros, conforme os critérios legais."
+    },
+    {
+        "grupo": "Código Florestal",
+        "categoria": "Reserva Legal (RL)",
+        "objetivo": "Assegurar o uso econômico sustentável dos recursos naturais, auxiliar a conservação e reabilitação de processos ecológicos e abrigar a fauna e flora.",
+        "uso_permitido": "Exploração econômica mediante manejo florestal sustentável (previamente aprovado) e livre coleta de produtos florestais não madeireiros.",
+        "uso_proibido": "Alteração de sua destinação (mesmo em desmembramentos) e desmatamento/corte irregular.",
+        "exemplos": "Parte de um imóvel rural mantida com vegetação nativa ou recuperada, fora das áreas de APP, destinada à conservação e ao uso sustentável."
+    },
+    {
+        "grupo": "Código Florestal",
+        "categoria": "Áreas de Uso Restrito",
+        "objetivo": "Proteger áreas ecologicamente sensíveis, especificamente os pantanais, planícies pantaneiras e áreas com inclinação entre 25° e 45°.",
+        "uso_permitido": "Exploração ecologicamente sustentável, manejo florestal e atividades agrossilvipastoris com adoção de boas práticas agronômicas.",
+        "uso_proibido": "Conversão de novas áreas de vegetação nativa para uso alternativo do solo (salvo utilidade pública/interesse social).",
+        "exemplos": "Pantanal e planícies pantaneiras; áreas de inclinação entre 25° e 45°, observadas as regras específicas de cada caso."
+    },
+    {
+        "grupo": "Código Florestal",
+        "categoria": "Apicuns e Salgados",
+        "objetivo": "Garantir a exploração ecologicamente sustentável da Zona Costeira, salvaguardando a integridade dos manguezais adjacentes.",
+        "uso_permitido": "Atividades de carcinicultura e salinas, condicionadas ao licenciamento ambiental e ao respeito de limites percentuais de ocupação no bioma.",
+        "uso_proibido": "Ocupação ou exploração irregular; atividades que comprometam a produtividade biológica e os processos ecológicos dos manguezais.",
+        "exemplos": "Planícies lamosas e arenosas costeiras sujeitas à influência das marés, próximas a manguezais, onde podem existir salinas ou áreas de carcinicultura licenciadas."
+    },
+    {
+        "grupo": "Código Florestal",
+        "categoria": "Área Verde Urbana",
+        "objetivo": "Propiciar recreação, lazer, melhoria da qualidade ambiental urbana, proteção dos recursos hídricos e paisagística.",
+        "uso_permitido": "Manutenção de espaços públicos ou privados com predomínio de vegetação nativa, natural ou recuperada.",
+        "uso_proibido": "Destinação da área para a construção de moradias.",
+        "exemplos": "Praças, parques, jardins públicos e áreas vegetadas em cidades, públicas ou privadas, destinadas ao lazer e à melhoria ambiental."
+    }
+]

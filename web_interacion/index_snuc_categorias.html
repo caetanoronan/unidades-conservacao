@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Proteção da natureza no Brasil</title>
+  <link rel="stylesheet" href="snuc_categorias.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="cabecalho-topo">
+      <p class="eyebrow">Direito ambiental e proteção territorial</p>
+      <button id="alternar-tema" class="alternar-tema" type="button" aria-pressed="false">Modo claro</button>
+    </div>
+    <h1>Proteção da natureza no Brasil</h1>
+    <p class="intro">Uma leitura integrada da Constituição, do Código Florestal, do SNUC e dos direitos territoriais de povos indígenas e comunidades quilombolas.</p>
+  </header>
+
+  <nav class="abas" aria-label="Seções da pesquisa" role="tablist">
+    <button class="aba ativa" id="tab-introducao" data-aba="introducao" role="tab" aria-selected="true" aria-controls="introducao">Introdução</button>
+    <button class="aba" id="tab-constituicao" data-aba="constituicao" role="tab" aria-selected="false" aria-controls="constituicao">Constituição</button>
+    <button class="aba" id="tab-florestal" data-aba="florestal" role="tab" aria-selected="false" aria-controls="florestal">Código Florestal</button>
+    <button class="aba" id="tab-snuc" data-aba="snuc" role="tab" aria-selected="false" aria-controls="snuc">SNUC</button>
+    <button class="aba" id="tab-territorios" data-aba="territorios" role="tab" aria-selected="false" aria-controls="territorios">Povos e territórios</button>
+    <button class="aba" id="tab-glossario" data-aba="glossario" role="tab" aria-selected="false" aria-controls="glossario">Glossário</button>
+    <button class="aba" id="tab-conclusao" data-aba="conclusao" role="tab" aria-selected="false" aria-controls="conclusao">Conclusão</button>
+  </nav>
+
+  <main>
+    <section class="painel-aba ativa" id="introducao" data-painel="introducao" role="tabpanel" aria-labelledby="tab-introducao" tabindex="0">
+      <p class="eyebrow">Como ler este índice</p>
+      <h2>Como o Brasil protege a natureza e o território</h2>
+      <p class="introducao-destaque">A proteção ambiental no Brasil não se resume a uma única lei ou a um único tipo de área. Na verdade, ela opera como um <strong>mosaico de instrumentos</strong> que se adaptam a diferentes realidades e necessidades.</p>
+      <div class="introducao-blocos">
+        <article>
+          <p>Uma margem de rio, uma floresta particular, um Parque Nacional e uma Terra Indígena possuem motivos e regras de proteção distintos. A Constituição Federal estabelece o alicerce; o Código Florestal regula a vegetação e define áreas como APP e Reserva Legal; o SNUC organiza as unidades de conservação; e os regimes de terras indígenas e quilombolas resguardam direitos coletivos, identidades e modos de vida.</p>
+          <p>Por isso, o primeiro passo para ler o nosso território é identificar <strong>qual instrumento se aplica a cada contexto</strong>. É essa clareza que nos permite compreender a finalidade da proteção, bem como as regras de uso, gestão e fiscalização aplicáveis a cada local.</p>
+        </article>
+      </div>
+      <h3 class="subtitulo-introducao">O que você encontrará nas abas</h3>
+      <div class="destaques-grid">
+        <article><strong>Constituição</strong><span>Apresenta o direito ao meio ambiente equilibrado, os deveres de proteção e os direitos territoriais indígenas.</span></article>
+        <article><strong>Código Florestal</strong><span>Explica APP, Reserva Legal, áreas de uso restrito, regras urbanas e temas complementares.</span></article>
+        <article><strong>SNUC</strong><span>Compara as 12 categorias de unidades de conservação, divididas em Proteção Integral e Uso Sustentável.</span></article>
+        <article><strong>Povos e territórios</strong><span>Diferencia Terras Indígenas e territórios quilombolas das categorias do SNUC.</span></article>
+      </div>
+      <div class="orientacao-introducao"><strong>Como usar:</strong><span>comece pela introdução para compreender o conjunto, consulte a aba temática de seu interesse e abra os PDFs quando precisar conferir a fonte original.</span></div>
+      <p class="nota-introducao">Este índice organiza informações para estudo, apoio e consulta inicial. A aplicação de uma regra a um caso concreto depende do texto legal vigente, da localização, dos atos administrativos e, quando necessário, de análise técnica ou jurídica.</p>
+    </section>
+
+    <section class="painel-aba" id="constituicao" data-painel="constituicao" role="tabpanel" aria-labelledby="tab-constituicao" tabindex="0">
+      <p class="eyebrow">Base constitucional</p>
+      <h2>Constituição Federal</h2>
+      <div class="texto-colunas">
+        <article><h3>Art. 225: direito ao meio ambiente</h3><p>Todos têm direito ao meio ambiente ecologicamente equilibrado. O dever de defendê-lo e preservá-lo é do Poder Público e da coletividade, para as presentes e futuras gerações.</p><p>A Constituição também determina a definição de espaços territoriais especialmente protegidos e exige estudo prévio de impacto ambiental para atividades potencialmente causadoras de significativa degradação.</p></article>
+        <article><h3>Competência compartilhada</h3><p>União, Estados, Distrito Federal e Municípios têm competência comum para proteger o meio ambiente, combater a poluição e preservar florestas, fauna e flora.</p><p>Esta base constitucional sustenta leis e políticas como o Código Florestal e o SNUC, mas não transforma todos os instrumentos ambientais em unidades de conservação.</p></article>
+      </div>
+    </section>
+
+    <section class="painel-aba" id="florestal" data-painel="florestal" role="tabpanel" aria-labelledby="tab-florestal" tabindex="0">
+      <p class="eyebrow">Lei nº 12.651/2012</p>
+      <h2>Código Florestal</h2>
+      <p>O Código Florestal protege a vegetação nativa e estabelece instrumentos que incidem principalmente sobre imóveis rurais. APP e Reserva Legal não são categorias do SNUC.</p>
+      <div id="filtros-florestal" class="filtros-container">
+        <button onclick="filtrarFlorestal('Todos')">Todos os instrumentos</button>
+        <label class="busca"><span>Buscar instrumento</span><input id="busca-florestal" type="search" placeholder="Ex.: reserva, urbana..." autocomplete="off"></label>
+      </div>
+      <p id="resultado-florestal" class="resultado-filtro" aria-live="polite"></p>
+      <div id="dashboard-florestal" class="dashboard-grid"></div>
+      <section class="temas-florestais" aria-labelledby="temas-florestais-titulo">
+        <p class="eyebrow">Aprofundamento</p>
+        <h3 id="temas-florestais-titulo">Temas complementares do Código Florestal</h3>
+        <div id="lista-temas-florestais" class="temas-grid"></div>
+      </section>
+    </section>
+
+    <section class="painel-aba" id="snuc" data-painel="snuc" role="tabpanel" aria-labelledby="tab-snuc" tabindex="0">
+      <p class="eyebrow">Lei nº 9.985/2000</p>
+      <h2>Sistema Nacional de Unidades de Conservação</h2>
+      <p>O SNUC reúne 12 categorias em dois grupos. Use os filtros para comparar objetivos, usos, domínio, visitação e governança.</p>
+      <section class="resumo" aria-label="Resumo do SNUC">
+        <div><strong id="total-categorias">12</strong><span>categorias no SNUC</span></div>
+        <div><strong id="total-protecao">5</strong><span>de proteção integral</span></div>
+        <div><strong id="total-uso">7</strong><span>de uso sustentável</span></div>
+      </section>
+      <div id="filtros-snuc" class="filtros-container">
+        <button onclick="filtrarCategorias('Todos')">Todas as Categorias</button>
+        <button onclick="filtrarCategorias('Proteção Integral')">Proteção Integral</button>
+        <button onclick="filtrarCategorias('Uso Sustentável')">Uso Sustentável</button>
+        <label class="busca"><span>Buscar categoria</span><input id="busca-categoria" type="search" placeholder="Ex.: parque, fauna..." autocomplete="off"></label>
+      </div>
+      <p id="resultado-filtro" class="resultado-filtro" aria-live="polite"></p>
+      <div id="dashboard-snuc" class="dashboard-grid"></div>
+    </section>
+
+    <section class="painel-aba" id="territorios" data-painel="territorios" role="tabpanel" aria-labelledby="tab-territorios" tabindex="0">
+      <p class="eyebrow">Direitos coletivos e proteção territorial</p>
+      <h2>Povos indígenas e comunidades quilombolas</h2>
+      <div class="texto-colunas">
+        <article><h3>Terras Indígenas</h3><p>O art. 231 da Constituição reconhece a organização social, os costumes, as línguas, as crenças e as tradições indígenas, além dos direitos originários sobre as terras tradicionalmente ocupadas.</p><p>Essas terras são destinadas à posse permanente indígena, com usufruto exclusivo das riquezas do solo, dos rios e dos lagos. Não são categorias do SNUC.</p></article>
+        <article><h3>Territórios quilombolas</h3><p>O reconhecimento e a titulação dos territórios quilombolas seguem regime próprio, com participação de órgãos como INCRA e Fundação Cultural Palmares.</p><p>O material também registra a possibilidade de sobreposição com unidades de conservação e terras indígenas, exigindo medidas de conciliação e sustentabilidade. Não são categorias do SNUC.</p></article>
+      </div>
+    </section>
+
+    <section class="painel-aba" id="conclusao" data-painel="conclusao" role="tabpanel" aria-labelledby="tab-conclusao" tabindex="0">
+      <p class="eyebrow">Síntese</p>
+      <h2>Como as peças se relacionam</h2>
+      <p>O ordenamento territorial brasileiro atua como um quebra-cabeça. As peças se complementam, mas cumprem funções distintas e <strong>não devem ser confundidas</strong>:</p>
+      <div class="conclusao-grid">
+        <article><strong>A Constituição</strong><span>Fornece a base geral e os deveres fundamentais.</span></article>
+        <article><strong>O Código Florestal</strong><span>Regula o uso e a proteção da vegetação, focando no espaço privado, como imóveis rurais e urbanos.</span></article>
+        <article><strong>O SNUC</strong><span>Sistematiza as unidades de conservação criadas pelo Poder Público.</span></article>
+        <article><strong>Os Regimes Tradicionais</strong><span>Asseguram o direito à terra, à identidade e aos modos de vida de indígenas e quilombolas.</span></article>
+      </div>
+      <div class="conclusao"><strong>Conclusão:</strong><span>nosso índice entrega uma fotografia ampla e integrada para fins educacionais e de pesquisa preliminar. Para ações concretas em qualquer território, o próximo passo exige a consulta detalhada de atos de criação, mapas, planos de manejo, normativas locais e pareceres dos órgãos de gestão.</span></div>
+    </section>
+
+    <section class="painel-aba" id="glossario" data-painel="glossario" role="tabpanel" aria-labelledby="tab-glossario" tabindex="0">
+      <p class="eyebrow">Consulta rápida</p>
+      <h2>Glossário de proteção ambiental e territorial</h2>
+      <p>Pesquise uma expressão para encontrar sua definição e o contexto jurídico em que ela aparece.</p>
+      <div class="filtros-glossario">
+        <label class="busca busca-glossario"><span>Buscar termo</span><input id="busca-glossario" type="search" placeholder="Ex.: APP, manejo, território..." autocomplete="off"></label>
+        <label class="busca"><span>Filtrar por área</span><select id="filtro-glossario">
+          <option value="Todos">Todas as áreas</option>
+          <option value="Direito ambiental">Direito ambiental</option>
+          <option value="SNUC">SNUC</option>
+          <option value="Ecologia marinha">Ecologia marinha</option>
+          <option value="Pesquisa e campo">Pesquisa e campo</option>
+        </select></label>
+      </div>
+      <p id="resultado-glossario" class="resultado-filtro" aria-live="polite"></p>
+      <div id="lista-glossario" class="glossario-grid"></div>
+    </section>
+  </main>
+
+  <footer class="fontes">
+    <h2>Fontes consultadas</h2>
+    <a href="../Constituicao-Compilado.pdf" target="_blank" rel="noopener">Constituição Federal (PDF)</a>
+    <a href="../Codigo_florestal/Codigo_florestal_2ed.pdf" target="_blank" rel="noopener">Código Florestal (PDF)</a>
+    <a href="../Snuc/Snuc_lei.pdf" target="_blank" rel="noopener">Lei nº 9.985/2000 (PDF)</a>
+    <a href="../comunidades_tradicionais/comunidades%20dos%20quilombos.pdf" target="_blank" rel="noopener">Comunidades dos quilombos (PDF)</a>
+    <a href="../Snuc/Environmental_legislation_and_protected_areas_outside_SNUC_LeapSpace.pdf" target="_blank" rel="noopener">Legislação ambiental fora do SNUC (PDF)</a>
+    <p class="autor" aria-label="Autoria do projeto">Pesquisa e desenvolvimento por <strong>Ronan Armando Caetano</strong></p>
+  </footer>
+
+  <script src="snuc_categorias.js"></script>
+</body>
+</html>

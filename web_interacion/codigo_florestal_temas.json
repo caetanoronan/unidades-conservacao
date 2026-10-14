@@ -1,0 +1,93 @@
+[
+  {
+    "titulo": "Categorias de APP",
+    "resumo": "As APPs podem ocorrer em diferentes ambientes definidos pelo Código Florestal, com funções de proteção da água, do solo, da paisagem e da biodiversidade.",
+    "pontos": [
+      "Margens de cursos d'água naturais e entorno de nascentes e olhos d'água.",
+      "Entorno de lagos e lagoas naturais, restingas e manguezais, conforme o enquadramento legal.",
+      "Encostas com inclinação superior a 45 graus, topos de morros e montanhas e bordas de chapadas.",
+      "A delimitação e a largura da faixa dependem do tipo de ambiente e dos critérios da lei."
+    ],
+    "fonte": "Categories_of_Permanent_Preservation_Areas_LeapSpace.pdf"
+  },
+  {
+    "titulo": "APP em áreas urbanas",
+    "resumo": "Em áreas urbanas, a APP pode aparecer como faixa marginal protegida ao longo de rios e outros cursos d'água, com largura relacionada às características do curso e às regras aplicáveis.",
+    "pontos": [
+      "A existência de urbanização não elimina automaticamente a função ambiental da faixa marginal.",
+      "A análise deve considerar o curso d'água, a legislação federal e as normas urbanísticas locais.",
+      "A aplicação concreta depende do enquadramento do local e dos atos normativos vigentes."
+    ],
+    "fonte": "Definition_of_Permanent_Preservation_Areas_LeapSpace.pdf"
+  },
+  {
+    "titulo": "Área urbana consolidada",
+    "resumo": "É um recorte urbano já instalado ou ocupado usado nas regras de APP urbana. Não é uma nova categoria de área protegida.",
+    "pontos": [
+      "A expressão delimita situações urbanas em que entram regras específicas para as faixas marginais.",
+      "A caracterização depende do planejamento urbano, da ocupação existente e da legislação aplicável.",
+      "Não confundir área urbana consolidada com APP, unidade de conservação ou Reserva Legal."
+    ],
+    "fonte": "Definition_of_consolidated_urban_area_LeapSpace.pdf"
+  },
+  {
+    "titulo": "Lei nº 14.285/2021 e APP urbana",
+    "resumo": "A Lei nº 14.285/2021 alterou regras relacionadas às APPs marginais em áreas urbanas consolidadas e ampliou o papel dos municípios na definição local.",
+    "pontos": [
+      "O município pode estabelecer a disciplina das faixas marginais em áreas urbanas consolidadas, conforme os requisitos legais.",
+      "A proteção pode se tornar mais variável entre municípios; a legislação local precisa ser consultada.",
+      "A possibilidade de redução da faixa não significa autorização geral para ocupação ou supressão de vegetação."
+    ],
+    "fonte": "Law_142852021_and_urban_APPs_LeapSpace.pdf"
+  },
+  {
+    "titulo": "Regulação ambiental urbana",
+    "resumo": "A disciplina das APPs urbanas combina Código Florestal, legislação municipal, planejamento urbano e proteção dos cursos d'água.",
+    "pontos": [
+      "Projetos urbanos devem verificar a legislação municipal e a situação ambiental do imóvel.",
+      "A definição local deve ser compatível com a proteção ambiental e com os instrumentos de planejamento.",
+      "Em caso de dúvida, a análise técnica e o órgão ambiental competente são indispensáveis."
+    ],
+    "fonte": "Law_142852021_and_urban_environmental_regulations_LeapSpace.pdf"
+  },
+  {
+    "titulo": "Compensação de Reserva Legal",
+    "resumo": "A compensação pode ser um mecanismo de regularização de déficit de Reserva Legal, sem substituir automaticamente todas as obrigações ambientais do imóvel.",
+    "pontos": [
+      "Pode envolver área equivalente em outro imóvel, observados os requisitos legais e a localização no mesmo bioma quando exigido.",
+      "Entre os mecanismos previstos estão arrendamento, aquisição de instrumentos ambientais e doação de área em unidade de conservação para regularização fundiária, conforme a lei.",
+      "A compensação depende de cadastro, equivalência, aprovação e demais condições do Código Florestal e do órgão competente."
+    ],
+    "fonte": "Legal_Reserve_compensation_mechanisms_LeapSpace.pdf"
+  },
+  {
+    "titulo": "Alterações e áreas sensíveis",
+    "resumo": "O Código Florestal possui regras específicas para áreas de uso restrito, apicuns e salgados, áreas consolidadas e alterações legislativas posteriores.",
+    "pontos": [
+      "Pantanais, planícies pantaneiras e áreas com inclinação entre 25 e 45 graus possuem regime de uso restrito.",
+      "Apicuns e salgados admitem usos condicionados e devem preservar a integridade dos manguezais adjacentes.",
+      "As regras para áreas consolidadas e as alterações legislativas devem ser analisadas conforme a data, o local e o tipo de intervenção."
+    ],
+    "fonte": "Restricted_use_areas_in_Brazilian_Forest_Code_LeapSpace.pdf"
+  },
+  {
+    "titulo": "Categorias centrais de proteção",
+    "resumo": "APP e Reserva Legal são os instrumentos centrais de proteção da vegetação no Código Florestal; Áreas de Uso Restrito complementam esse conjunto.",
+    "pontos": [
+      "APP protege funções ambientais específicas e pode incidir em áreas públicas ou privadas.",
+      "Reserva Legal é uma parcela do imóvel ou posse rural, com percentual e regras que variam conforme a região e o bioma.",
+      "Os instrumentos do Código Florestal não devem ser confundidos com as categorias do SNUC."
+    ],
+    "fonte": "Forest_Code_land_protection_categories_LeapSpace.pdf"
+  },
+  {
+    "titulo": "Alterações do Código Florestal",
+    "resumo": "As mudanças legislativas posteriores ao Código Florestal podem afetar APPs urbanas, áreas consolidadas e a aplicação das regras em situações específicas.",
+    "pontos": [
+      "A interpretação deve considerar o texto legal vigente e a data do fato ou da intervenção.",
+      "Alterações normativas não eliminam a necessidade de licenciamento, autorização ou análise ambiental quando exigidos.",
+      "Para uma decisão concreta, devem ser consultados o município, o órgão ambiental e a legislação atualizada."
+    ],
+    "fonte": "Amendments_to_the_Brazilian_Forest_Code_LeapSpace.pdf"
+  }
+]
